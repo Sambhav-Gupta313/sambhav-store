@@ -62,7 +62,8 @@ public class SecurityConfig {
         // Frontend URLs
         configuration.setAllowedOrigins(
                 List.of(
-                        "http://localhost:5173"
+                        "http://localhost:5173",
+                        "https://sambhav-store-frontend.onrender.com"
                 )
         );
 
